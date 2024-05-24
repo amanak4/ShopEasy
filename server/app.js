@@ -23,7 +23,7 @@ const PORT = process.env.PORT;
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:3000","https://shop-easy-eosin.vercel.app"],
+  origin: ["http://localhost:3000","https://shop-easy-eosin.vercel.app","https://shop-easy-aman-kasaudhans-projects.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
